@@ -1,4 +1,4 @@
-package dominio;
+package Desafio.Aluno.dominio;
 
 public class Aluno {
     private String nome;

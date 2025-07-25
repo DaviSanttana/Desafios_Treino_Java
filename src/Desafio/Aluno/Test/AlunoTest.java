@@ -1,6 +1,6 @@
-package test;
+package Desafio.Aluno.Test;
 
-import dominio.Aluno;
+import Desafio.Aluno.dominio.Aluno;
 
 public class AlunoTest {
     public static void main(String[] args) {
