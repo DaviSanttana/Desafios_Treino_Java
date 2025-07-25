@@ -1,13 +1,14 @@
-# 📚 Projeto: Cadastro de Alunos em Java
+# 📚 Projeto: Desafios em Java para fixação de conhecimentos
 
-Este é um projeto simples em Java criado como prática da **Maratona Java - DevDojo** (até a aula 50).  
+Este é um repositorio simples em Java criado para práticar a fixação de Java da **Maratona Java - DevDojo**  
 Ele demonstra conceitos básicos de **Programação Orientada a Objetos** como:
 
 - ✅ Criação de classes e objetos
 - ✅ Encapsulamento com atributos `private`
 - ✅ Métodos `set` usando `this`
 - ✅ Métodos com parâmetros
-- ✅ Comparação entre objetos (ex: idade)
+- ✅ Comparação entre objetos
+- ✅ Associação unidirecional muitos para um
 
 ---
 
@@ -19,23 +20,13 @@ Ele demonstra conceitos básicos de **Programação Orientada a Objetos** como:
 
 ---
 
-## 📦 Estrutura do Projeto
-projeto-cadastro-aluno/
-├── src/
-│ ├── dominio/
-│ │ └── Aluno.java
-│ └── test/
-│ └── AlunoTest.java
-
----
-
 ## 🎯 Como usar
 
 1. Clone o repositório:
 
 2. Abra no IntelliJ ou em outro editor Java
 
-3. Rode a classe `AlunoTest.java` para ver o sistema em funcionamento
+3. Rode a classe `AlunoTest.java ou qualquer outro` para ver o sistema em funcionamento
 
 ---
 
