@@ -1,7 +1,7 @@
-package Desafio.Loja.AssociaçãoMuitosParaUm.test;
+package Desafio.Loja.test;
 
-import Desafio.Loja.AssociaçãoMuitosParaUm.dominio.Loja;
-import Desafio.Loja.AssociaçãoMuitosParaUm.dominio.Produtos;
+import Desafio.Loja.dominio.Loja;
+import Desafio.Loja.dominio.Produtos;
 
 public class LojaTest01 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Desafio.Loja.AssociaçãoMuitosParaUm.dominio;
+package Desafio.Loja.dominio;
 
 public class Produtos {
     public class Produto {
