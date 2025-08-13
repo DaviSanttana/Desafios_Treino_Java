@@ -2,26 +2,26 @@ package Desafio.TabelaFutebol.dominio;
 
 public class Times {
 
-    static class Tabela{
-        private String nomeTimes;
-        private int vitoriasTime;
-        private int derrotasTime;
-        private int empatesTime;
 
-        public Tabela(String nomeTimes, int vitoriasTime, int derrotasTime, int empatesTime) {
-            this.nomeTimes = nomeTimes;
-            this.vitoriasTime = vitoriasTime;
-            this.derrotasTime = derrotasTime;
-            this.empatesTime = empatesTime;
+    public static class Tabela{
+        private String nomeTime;
+        private int vitorias;
+        private int derrotas;
+        private int empates;
+
+        public Tabela (String nomeTime, int vitorias, int derrotas, int empates) {
+            this.nomeTime= nomeTime;
+            this.vitorias= vitorias;
+            this.derrotas= derrotas;
+            this.empates= empates;
         }
 
         public int getPontos() {
-            return (vitoriasTime * 3) + empatesTime;
+            return (vitorias * 3) + empates;
         }
-
         @Override
         public String toString() {
-            return nomeTimes + " - " + getPontos() + " pontos";
+            return nomeTime + " - " + getPontos() + " pontos";
         }
     }
 }
