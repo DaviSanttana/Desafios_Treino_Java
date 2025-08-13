@@ -2,7 +2,7 @@ package Desafio.TabelaFutebol.dominio;
 
 public class Times {
 
-    static class Tabela {
+    static class Tabela{
         private String nomeTimes;
         private int vitoriasTime;
         private int derrotasTime;
