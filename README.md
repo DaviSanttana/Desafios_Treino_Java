@@ -9,25 +9,21 @@ Ele demonstra conceitos básicos de **Programação Orientada a Objetos** como:
 - ✅ Métodos com parâmetros
 - ✅ Comparação entre objetos
 - ✅ Associação unidirecional muitos para um
-
+- ✅ Herança
+- ✅ método toString
 ---
 
 ## 🚀 Tecnologias usadas
-
 - ☕ Java (versão 17 ou superior)
 - 🧠 IntelliJ IDEA
 - 📂 Organização em pacotes (`dominio` e `test`)
 
 ---
-
 ## 🎯 Como usar
 
 1. Clone o repositório:
-
 2. Abra no IntelliJ ou em outro editor Java
-
 3. Rode a classe `AlunoTest.java ou qualquer outro` para ver o sistema em funcionamento
-
 ---
 
 ## ✍️ Autor
