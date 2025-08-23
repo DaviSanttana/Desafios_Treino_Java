@@ -17,11 +17,12 @@ public class Pedido {
         this.status = novoStatus;
      }
 
-    @Override
-    public String toString() {
-        return "Pedido #1 " + id + " |  Produto: " + descricao + " |  Status=" + status +" - "+ status.getDescricao();
+    public void exibirPedido(){
+        System.out.println("Pedido #"+ id);
+        System.out.println("Produtos: "+ descricao);
+        System.out.println("Status: "+status+ " - "+status.getDescricao());
+        System.out.println();
     }
-
     public int getId() {
         return id;
     }
