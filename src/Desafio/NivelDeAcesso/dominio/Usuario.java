@@ -1,5 +1,8 @@
 package Desafio.NivelDeAcesso.dominio;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Usuario {
     private String nome;
     NivelDeAcesso nivelDeAcesso;
@@ -11,16 +14,50 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "Usuario: " + nome + " | nivelDeAcesso: "+nivelDeAcesso+" - "+nivelDeAcesso.getDescricao();
+        return "Usuario: " + nome + " | nivelDeAcesso: " + nivelDeAcesso + " - " + nivelDeAcesso.getDescricao();
     }
 
-    public static void main(String[] args) {
-        Usuario usuario1 = new Usuario("Davi",NivelDeAcesso.ADMIN);
-        Usuario usuario2 = new Usuario("Caique",NivelDeAcesso.USUARIO);
-        Usuario usuario3 = new Usuario("Fernanda",NivelDeAcesso.MODERADOR);
+    public NivelDeAcesso getNivelDeAcesso() {
+        return nivelDeAcesso;
+    }
 
-        System.out.println(usuario1);
-        System.out.println(usuario2);
-        System.out.println(usuario3);
+    //TESTE DO MAIN
+
+    public static void main(String[] args) {
+        List<Usuario> usuarios = new ArrayList<>();
+
+        usuarios.add(new Usuario("Davi", NivelDeAcesso.ADMIN));
+        usuarios.add(new Usuario("Caique", NivelDeAcesso.USUARIO));
+        usuarios.add(new Usuario("Fernanda", NivelDeAcesso.MODERADOR));
+        usuarios.add(new Usuario("Gustavo", NivelDeAcesso.ADMIN));
+
+        int qtdAdmin = 0;
+        int qtdModerador = 0;
+        int qtdUsaurio = 0;
+        int qtdVisitante = 0;
+
+        System.out.println(" -- Todos os Usuarios --");
+        for (Usuario u : usuarios) {
+            System.out.println(u);
+        }
+        System.out.println("\n -- Somente ADMIN --");
+        for (Usuario u : usuarios) {
+            if (u.getNivelDeAcesso() == NivelDeAcesso.ADMIN) {
+                System.out.println(u);
+            }
+        }
+        System.out.println("\n-- Contador de Ususarios --");
+        for (Usuario u : usuarios) {
+            switch (u.getNivelDeAcesso()) {
+                case ADMIN -> qtdAdmin++;
+                case MODERADOR -> qtdModerador++;
+                case USUARIO -> qtdUsaurio++;
+                case VISITANTE -> qtdVisitante++;
+            }
+        }
+        System.out.println("ADMIN: " + qtdAdmin);
+        System.out.println("MODERADOR: " + qtdModerador);
+        System.out.println("USUARIO: " + qtdUsaurio);
+        System.out.println("VISITANTE: " + qtdVisitante);
     }
 }
