@@ -20,15 +20,11 @@ public class Pedido {
     public void exibirPedido(){
         System.out.println("Pedido #"+ id);
         System.out.println("Produtos: "+ descricao);
-        System.out.println("Status: "+status+ " - "+status.getDescricao());
+        System.out.println("Status: "+status+ " - "+status.getDescricao()+"-  codDesricao: "+status.getCodDesricao());
         System.out.println();
     }
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public StatusPedido getStatus() {
