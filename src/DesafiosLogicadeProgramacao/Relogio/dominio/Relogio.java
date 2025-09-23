@@ -1,4 +1,4 @@
-package DesafiosCodeWars.Relogio.dominio;
+package DesafiosLogicadeProgramacao.Relogio.dominio;
 
 public class Relogio {
     public static int Relogio(int horas, int minutos, int segundos) {

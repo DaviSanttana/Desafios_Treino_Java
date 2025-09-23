@@ -1,4 +1,4 @@
-package DesafiosCodeWars.MatrizesDeSoma.dominio;
+package DesafiosLogicadeProgramacao.MatrizesDeSoma.dominio;
 public class MatrizesdeSoma {
 
     public static double sum(double[] numeros) {

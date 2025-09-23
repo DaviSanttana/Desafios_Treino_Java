@@ -1,4 +1,4 @@
-package DesafiosCodeWars.RepeticaoDeSequencia.dominio;
+package DesafiosLogicadeProgramacao.RepeticaoDeSequencia.dominio;
 
 public class RepeticaoString {
     public static String repeticao(final int repete, final String string) {

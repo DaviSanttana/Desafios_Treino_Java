@@ -1,4 +1,4 @@
-package DesafiosCodeWars.DocumentacaoEscolar;
+package DesafiosLogicadeProgramacao.DocumentacaoEscolar;
 
 public class DocumentacaoEscolar {
     public static int PaginasBranco(int colegas, int paginas) {

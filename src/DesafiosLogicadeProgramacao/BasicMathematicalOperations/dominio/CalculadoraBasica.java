@@ -1,4 +1,4 @@
-package DesafiosCodeWars.BasicMathematicalOperations.dominio;
+package DesafiosLogicadeProgramacao.BasicMathematicalOperations.dominio;
 
 import java.util.Scanner;
 
