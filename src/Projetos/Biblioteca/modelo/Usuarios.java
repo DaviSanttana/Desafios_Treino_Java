@@ -1,8 +1,8 @@
-package Projetos.SistemaDeBilioteca.BaseProjeto;
+package Projetos.Biblioteca.modelo;
 
 public abstract class Usuarios {
     protected String nome;
-    protected int livrosEmprestados;
+    public int livrosEmprestados;
 
     public Usuarios(String nome) {
         this.nome = nome;
@@ -11,7 +11,9 @@ public abstract class Usuarios {
     public abstract boolean podeEmprestar();
 
     public String getNome() {
-        return nome;
+        return null;
     }
+
+    public abstract void add(Usuarios usuarios);
 }
 

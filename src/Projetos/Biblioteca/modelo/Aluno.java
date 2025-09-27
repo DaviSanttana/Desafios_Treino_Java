@@ -1,4 +1,4 @@
-package Projetos.SistemaDeBilioteca.BaseProjeto;
+package Projetos.Biblioteca.modelo;
 
 public class Aluno extends Usuarios {
     public Aluno(String nome) {
@@ -7,6 +7,11 @@ public class Aluno extends Usuarios {
     @Override
     public boolean podeEmprestar() {
         return livrosEmprestados < 3;
+    }
+
+    @Override
+    public void add(Usuarios usuarios) {
+
     }
 
 }

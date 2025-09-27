@@ -1,17 +1,21 @@
-package Projetos.SistemaDeBilioteca.BaseProjeto;
+package Projetos.Biblioteca.modelo;
 
 public class Livro {
     private String titulo;
     private int ano;
-    private String categoria;
     private boolean disponivel = true;
 
-    public Livro(String titulo, int ano, String categoria, boolean disponivel) {
+    public Livro(String titulo, int ano) {
         this.titulo = titulo;
         this.ano = ano;
-        this.categoria = categoria;
+    }
+
+    public Livro(String titulo, int ano, boolean disponivel) {
+        this.titulo = titulo;
+        this.ano = ano;
         this.disponivel = disponivel;
     }
+
 
     public String getTitulo() {
         return titulo;
@@ -19,10 +23,6 @@ public class Livro {
 
     public int getAno() {
         return ano;
-    }
-
-    public String getCategoria() {
-        return categoria;
     }
 
     public boolean isDisponivel() {
