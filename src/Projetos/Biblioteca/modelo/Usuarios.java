@@ -11,7 +11,7 @@ public abstract class Usuarios {
     public abstract boolean podeEmprestar();
 
     public String getNome() {
-        return null;
+        return this.nome;
     }
 
     public abstract void add(Usuarios usuarios);

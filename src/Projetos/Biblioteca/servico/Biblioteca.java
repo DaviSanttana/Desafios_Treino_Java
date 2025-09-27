@@ -15,7 +15,7 @@ public class Biblioteca {
     }
 
     public void adicionarUsuarios(Usuarios usuarios) {
-        usuarios.add(usuarios);
+        this.usuarios.add(usuarios);
     }
 
     //Lista todods os livros cadstrados
@@ -36,7 +36,7 @@ public class Biblioteca {
         if (livro.isDisponivel() && usuario.podeEmprestar()) {
             livro.emprestar();
             usuario.livrosEmprestados++;
-            System.out.println("\n" + usuario.getNome() + " emprestou o livro: \n" + livro.getTitulo());
+            System.out.println("\n" + usuario.getNome() + " pegou emprestado o livro: \n" + livro.getTitulo());
         } else {
             System.out.println("Nao foi possivel emprestar o livro: \n" + livro.getTitulo());
         }

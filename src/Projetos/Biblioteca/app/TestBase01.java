@@ -25,7 +25,9 @@ public class TestBase01 {
                     "6 - Listar Usuarios\n" +
                     "0 - Sair\n");
             System.out.print("Opcão: ");
-            opcoes = op.nextInt();
+            String entrada = op.nextLine(); // sempre lê string
+            if (entrada.isEmpty()) continue;
+            opcoes = Integer.parseInt(entrada);
 
             switch (opcoes) {
                 case 0:
@@ -44,7 +46,7 @@ public class TestBase01 {
                     break;
                 case 3:
                     System.out.println("Nome do Usuario: ");
-                    String nomeUsuarioAdd = op.nextLine();
+                    String nomeUsuarioAdd= op.nextLine();
                     System.out.println("Professor ou Aluno (P/A)?");
                     String tipoUsusarioAdd = op.nextLine().toUpperCase();
 
