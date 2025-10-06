@@ -1,5 +1,5 @@
-package ProjetosPoo.OrientaçãoAInterfaces.SistemaProcessamentoPagamentos.servico;
-import ProjetosPoo.OrientaçãoAInterfaces.SistemaProcessamentoPagamentos.repositorio.GatewayDePagamento;
+package ProjetosPoo.OrientacaoAInterfaces.SistemaProcessamentoPagamentos.servico;
+import ProjetosPoo.OrientacaoAInterfaces.SistemaProcessamentoPagamentos.repositorio.GatewayDePagamento;
 
 public class MeiosDePagamento {
     private GatewayDePagamento metodo;

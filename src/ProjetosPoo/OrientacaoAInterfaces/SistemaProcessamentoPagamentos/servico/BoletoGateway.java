@@ -1,6 +1,5 @@
-package ProjetosPoo.OrientaçãoAInterfaces.SistemaProcessamentoPagamentos.servico;
-import ProjetosPoo.OrientaçãoAInterfaces.SistemaProcessamentoPagamentos.repositorio.GatewayDePagamento;
-import ProjetosPoo.OrientaçãoAInterfaces.SistemaProcessamentoPagamentos.repositorio.GatewayDePagamento.VericarStatus;
+package ProjetosPoo.OrientacaoAInterfaces.SistemaProcessamentoPagamentos.servico;
+import ProjetosPoo.OrientacaoAInterfaces.SistemaProcessamentoPagamentos.repositorio.GatewayDePagamento;
 
 public class BoletoGateway implements GatewayDePagamento {
     @Override

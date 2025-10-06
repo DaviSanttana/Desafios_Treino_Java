@@ -1,10 +1,10 @@
-package ProjetosPoo.OrientaçãoAInterfaces.SistemaProcessamentoPagamentos.servico;
-import ProjetosPoo.OrientaçãoAInterfaces.SistemaProcessamentoPagamentos.repositorio.GatewayDePagamento;
+package ProjetosPoo.OrientacaoAInterfaces.SistemaProcessamentoPagamentos.servico;
+import ProjetosPoo.OrientacaoAInterfaces.SistemaProcessamentoPagamentos.repositorio.GatewayDePagamento;
 
 public class PayPalGateway implements GatewayDePagamento {
     @Override
     public VericarStatus processarPagamento(double valor) {
-        System.out.println("Pagamento via transferencia paypal no valor de " + valor);
+        System.out.println("\nPagamento via transferencia paypal no valor de " + valor);
         java.util.Random random = new java.util.Random();
         double chanceAprovado = random.nextDouble();
 

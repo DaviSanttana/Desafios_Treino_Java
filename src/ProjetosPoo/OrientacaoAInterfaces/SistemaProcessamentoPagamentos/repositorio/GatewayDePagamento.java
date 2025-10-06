@@ -1,4 +1,4 @@
-package ProjetosPoo.OrientaçãoAInterfaces.SistemaProcessamentoPagamentos.repositorio;
+package ProjetosPoo.OrientacaoAInterfaces.SistemaProcessamentoPagamentos.repositorio;
 
 public interface GatewayDePagamento {
     public enum VericarStatus{

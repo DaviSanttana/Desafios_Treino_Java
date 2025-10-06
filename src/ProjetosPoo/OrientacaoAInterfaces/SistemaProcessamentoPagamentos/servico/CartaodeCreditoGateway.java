@@ -1,6 +1,5 @@
-package ProjetosPoo.OrientaçãoAInterfaces.SistemaProcessamentoPagamentos.servico;
-import ProjetosPoo.OrientaçãoAInterfaces.SistemaProcessamentoPagamentos.repositorio.GatewayDePagamento;
-import java.util.Random;
+package ProjetosPoo.OrientacaoAInterfaces.SistemaProcessamentoPagamentos.servico;
+import ProjetosPoo.OrientacaoAInterfaces.SistemaProcessamentoPagamentos.repositorio.GatewayDePagamento;
 
 public class CartaodeCreditoGateway implements GatewayDePagamento {
     @Override
