@@ -4,7 +4,7 @@ import ProjetosPoo.OrientacaoAInterfaces.SistemaProcessamentoPagamentos.reposito
 public class CartaodeCreditoGateway implements GatewayDePagamento {
     @Override
     public VericarStatus processarPagamento(double valor) {
-        System.out.println(" Processando requisição de R$ " + valor + " junto à operadora de cartão.");
+        System.out.println("\nProcessando requisição de R$ " + valor + " junto à operadora de cartão.");
         java.util.Random random = new java.util.Random();
         double chanceAprovado = random.nextDouble();
 

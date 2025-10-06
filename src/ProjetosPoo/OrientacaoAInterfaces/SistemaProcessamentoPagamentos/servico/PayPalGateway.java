@@ -4,7 +4,7 @@ import ProjetosPoo.OrientacaoAInterfaces.SistemaProcessamentoPagamentos.reposito
 public class PayPalGateway implements GatewayDePagamento {
     @Override
     public VericarStatus processarPagamento(double valor) {
-        System.out.println("\nPagamento via transferencia paypal no valor de " + valor);
+        System.out.println("\nProcessando pagamento via transferencia paypal no valor de R$ " + valor);
         java.util.Random random = new java.util.Random();
         double chanceAprovado = random.nextDouble();
 
