@@ -15,8 +15,11 @@ public class Calculadora {
 
         System.out.print(" Digite seu peso (kg): ");
         int peso = entrada.nextInt();
+        if (peso <= 10) {
+            throw new RuntimeException("Voce nao é tao leve assim, coloque o peso certo");
+        }
 
-        System.out.println("[############ 100.00 %");
+        System.out.println("[############ 100.00 %  ######]");
 
         System.out.println("Olá "+ peso +" Kg seu peso é: "+nome);
     }
