@@ -9,10 +9,10 @@ public class TabuadacomEntrada {
         double valor1 = tabuada.nextDouble();
 
         System.out.print("Quantes vezez quer que as operacões se repitam: ");
-        int repwticoes = tabuada.nextInt();
+        int repeticoes = tabuada.nextInt();
 
         System.out.println("\nMultiplicação do " + valor1 + "       Divisao do " + valor1);
-        for (double valor2 = 1; valor2 <= repwticoes; valor2++) {
+        for (double valor2 = 1; valor2 <= repeticoes; valor2++) {
             System.out.println(valor1 + " x " + valor2 + " = " + (valor1 * valor2) + "    ||     " + valor1 + " / " + valor2 + " = " + String.format("%.2f", (valor1 / valor2)));
         }
     }

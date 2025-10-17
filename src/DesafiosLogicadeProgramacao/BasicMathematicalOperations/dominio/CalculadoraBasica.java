@@ -54,6 +54,9 @@ public class CalculadoraBasica {
                     num1 = sc.nextInt();
                     System.out.print("Segundo numero: ");
                     num2 = sc.nextInt();
+                    if (num2 == 0) {
+                        throw new IllegalArgumentException("Segundo argumento não pode ser zero");
+                   }
                     System.out.print("Resultado: " + (num1 / num2)+ "\n");
                     break;
             }
