@@ -1,8 +1,8 @@
-package LogicaDeProgramacao;
+package ProgrammingLogic;
 
 import java.util.Scanner;
 
-public class Logica001 {
+public class Logic001 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
