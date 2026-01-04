@@ -4,7 +4,8 @@ import java.util.Scanner;
 public class ParOuImpar{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite um número: ");
+        System.out.println(" Verifica se é PAH ou IMPAH ");
+        System.out.print("Digite um número: ");
         double lerNumero = scanner.nextDouble();
         if (lerNumero == 1) {
             System.out.println("É ímpar");
